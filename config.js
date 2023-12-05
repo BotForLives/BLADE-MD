@@ -3,13 +3,13 @@ if (fs.existsSync('config.env')) require('dotenv').config({ path: __dirname+'/co
 
 
 //═══════[Required Variables]════════\\
-global.owner = process.env.OWNER_NUMBER || '2348059540212'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
+global.owner = process.env.OWNER_NUMBER || '27767494368'  // Make SURE its Not Be Empty, Else Bot Stoped And Errors,
 global.mongodb = process.env.MONGODB_URI || "mongodb+srv://ahil1:787191784abhi@ahil1.kzr1tt3.mongodb.net/?retrywrites=true&w=majority"
 global.port= process.env.PORT || 5000
 global.email = 'maxdavid126@gmail.com'
 global.github = 'https://github.com/Bladeh4x/BLADE-MD'
 global.location = 'Lahore pakistan'
-global.gurl = 'https://instagram.com/alex_david/' // add your username
+global.gurl = 'https://instagram.com/_madeby_ave/' // add your username
 global.sudo = process.env.SUDO || "2348059540212"
 global.devs = '2348059540212'
 global.website = 'https://github.com/Bladeh4x/BLADE-MD' //wa.me/+91000000000000
@@ -20,7 +20,7 @@ module.exports = {
   packname:  process.env.PACK_NAME || 'MADE BY ALEX DAVID',
   
   botname:   process.env.BOT_NAME === undefined ? "BLADE-MD" : process.env.BOT_NAME,
-  ownername: process.env.OWNER_NAME === undefined ? 'alexdavid' : process.env.OWNER_NAME,  
+  ownername: process.env.OWNER_NAME === undefined ? '•AvePlayz•' : process.env.OWNER_NAME,  
   auto_read_status :  process.env.AUTO_READ_STATUS === undefined ? false : process.env.AUTO_READ_STATUS,
   autoreaction:  process.env.AUTO_REACTION  === undefined ? false : process.env.AUTO_REACTION ,
   antibadword :  process.env.ANTI_BAD_WORD === undefined ? 'nbwoed' : process.env.ANTI_BAD_WORD,
@@ -30,7 +30,7 @@ module.exports = {
   auto_status_saver: process.env.AUTO_STATUS_SAVER === undefined ? false : process.env.AUTO_STATUS_SAVER,
   HANDLERS:  process.env.PREFIX === undefined ? '.' : process.env.PREFIX,
   warncount : process.env.WARN_COUNT === undefined ? 3 : process.env.WARN_COUNT,
-  disablepm:  process.env.DISABLE_PM === undefined ? false : process.env.DISABLE_PM,
+  disablepm:  process.env.DISABLE_PM === undefined ? true : process.env.DISABLE_PM,
   levelupmessage:  process.env.LEVEL_UP_MESSAGE === undefined ? false : process.env.LEVEL_UP_MESSAGE,
   antilink:  process.env.ANTILINK_VALUES === undefined ? 'chat.whatsapp.com' : process.env.ANTILINK_VALUES,
   antilinkaction: process.env.ANTILINK_ACTION === undefined ? 'remove' : process.env.ANTILINK_ACTION,
